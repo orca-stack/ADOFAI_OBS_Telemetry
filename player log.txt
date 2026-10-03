@@ -33,8 +33,8 @@ Begin MonoManager ReloadAssembly
 [Manager] IsSupportOnSessionStop: False.
 [Manager] Mods path: F:\SteamLibrary\steamapps\common\A Dance of Fire and Ice\Mods.
 [Manager] Injection successful.
-- Loaded All Assemblies, in  1.138 seconds
-- Finished resetting the current domain, in  0.002 seconds
+- Loaded All Assemblies, in  1.024 seconds
+- Finished resetting the current domain, in  0.003 seconds
 [Physics::Module] Selected backend.
 [Physics::Module] Name: PhysX
 [Physics::Module] Id: 0xf2b8ea05
@@ -43,7 +43,7 @@ Begin MonoManager ReloadAssembly
 [Physics::Module] Threading Mode: Multi-Threaded
 <RI> Initializing input.
 <RI> Input initialized.
-UnloadTime: 0.644300 ms
+UnloadTime: 0.548800 ms
 [Manager] Starting.
 [Manager] Parsing mods.
 [Manager] Reading file 'F:\SteamLibrary\steamapps\common\A Dance of Fire and Ice\Mods\AdofaiExtension\Info.json'.
@@ -63,10 +63,10 @@ UnloadTime: 0.644300 ms
 [AdofaiExtension] Version '0.0.7'. Loading.
 [AdofaiExtension] registry add failed
 [AdofaiExtension] Active.
-[AdofaiExtension] Loading time 0.20 s.
+[AdofaiExtension] Loading time 0.17 s.
 [adofaiOBS] Version '0.0.12'. Loading.
 [adofaiOBS] Active.
-[adofaiOBS] Loading time 0.14 s.
+[adofaiOBS] Loading time 0.12 s.
 [AdofaiTweaks] Version '2.9.2'. Loading.
 [AdofaiTweaks] Loading: AdofaiTweaks.GlobalSettings
 [AdofaiTweaks] Loading: AdofaiTweaks.Tweaks.RestrictGameplay.RestrictGameplaySettings
@@ -85,7 +85,7 @@ UnloadTime: 0.644300 ms
 [ADOFAI_OBS_Telemetry] Mod initialized
 [ADOFAI_OBS_Telemetry] Mod enabled
 [ADOFAI_OBS_Telemetry] Active.
-[ADOFAI_OBS_Telemetry] Loading time 0.16 s.
+[ADOFAI_OBS_Telemetry] Loading time 0.19 s.
 [MusicTimestamp] To skip (disabled).
 [Overlayer] To skip (disabled).
 [PlanetTweaks] To skip (disabled).
@@ -98,7 +98,7 @@ UnloadTime: 0.644300 ms
 [YouTubeStream] Version '1.0.5'. Loading.
 Mod was added: YouTubeStream
 [YouTubeStream] Active.
-[YouTubeStream] Loading time 0.05 s.
+[YouTubeStream] Loading time 0.04 s.
 [Manager] FINISH. SUCCESSFUL LOADED 12/12 MODS.
 
 
@@ -144,27 +144,27 @@ Go to Menu
 Startup: Setup Audio Settings
 Startup: Setup Audio Settings End
 Unloading 7 Unused Serialized files (Serialized files now loaded: 1)
-UnloadTime: 4.201500 ms
+UnloadTime: 4.641600 ms
 [adofaiOBS] Start
 Unloading 1134 unused Assets to reduce memory usage. Loaded Objects now: 55439.
-Total: 33.809600 ms (FindLiveObjects: 4.701600 ms CreateObjectMapping: 2.235500 ms MarkObjects: 25.161500 ms  DeleteObjects: 1.710700 ms)
+Total: 30.572400 ms (FindLiveObjects: 4.556200 ms CreateObjectMapping: 1.918900 ms MarkObjects: 22.216900 ms  DeleteObjects: 1.879700 ms)
 
 [ADOFAI_OBS_Telemetry] Controller start
 Shader.WarmupAllShaders ();
-Shader warmup: 126 shaders 1397 combinations 0.180s
+Shader warmup: 126 shaders 1397 combinations 0.175s
 [ADOFAI_OBS_Telemetry] Controller started
 [ADOFAI_OBS_Telemetry] Feature enabled, example value: 100
 [ADOFAI_OBS_Telemetry] JSON output path: F:\SteamLibrary\steamapps\common\A Dance of Fire and Ice\ADOFAI_OBS_Telemetry.json
 <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 500/50 to 1250/50. Use DOTween.SetTweensCapacity to set it manually at startup
-Skipping audio break checking. Detected delta time: 1.444853
+Skipping audio break checking. Detected delta time: 1.506961
 [adofaiOBS] PlayerControl
 Direct3D: detected that using refresh rate causes time drift. Will stop trusting refresh rate until the game window is moved.
 [adofaiOBS] Won
 Unloading 7 Unused Serialized files (Serialized files now loaded: 1)
-UnloadTime: 55.558400 ms
+UnloadTime: 57.946100 ms
 [adofaiOBS] Start
 Unloading 2449 unused Assets to reduce memory usage. Loaded Objects now: 31208.
-Total: 54.521100 ms (FindLiveObjects: 4.514400 ms CreateObjectMapping: 2.151400 ms MarkObjects: 43.221700 ms  DeleteObjects: 4.633300 ms)
+Total: 49.254400 ms (FindLiveObjects: 2.988400 ms CreateObjectMapping: 1.273700 ms MarkObjects: 40.325400 ms  DeleteObjects: 4.666500 ms)
 
 [ADOFAI_OBS_Telemetry] Controller start
 Shader.WarmupAllShaders ();
@@ -175,28 +175,27 @@ Shader warmup: 125 shaders 1396 combinations 0.007s
 [adofaiOBS] PlayerControl
 <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 1250/50 to 3125/50. Use DOTween.SetTweensCapacity to set it manually at startup
 <color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 3125/50 to 7812/50. Use DOTween.SetTweensCapacity to set it manually at startup
-<color=#0099bc><b>DOTWEEN ► </b></color>Max Tweens reached: capacity has automatically been increased from 7812/50 to 19530/50. Use DOTween.SetTweensCapacity to set it manually at startup
 Unloading 6 Unused Serialized files (Serialized files now loaded: 1)
-UnloadTime: 56.874100 ms
+UnloadTime: 38.244000 ms
 [adofaiOBS] Start
-Unloading 2898 unused Assets to reduce memory usage. Loaded Objects now: 29323.
-Total: 67.962600 ms (FindLiveObjects: 2.743600 ms CreateObjectMapping: 1.392000 ms MarkObjects: 48.822900 ms  DeleteObjects: 15.003800 ms)
+Unloading 2848 unused Assets to reduce memory usage. Loaded Objects now: 29323.
+Total: 59.672800 ms (FindLiveObjects: 2.022700 ms CreateObjectMapping: 1.333200 ms MarkObjects: 46.845900 ms  DeleteObjects: 9.470000 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 1)
 Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 29323.
-Total: 60.332000 ms (FindLiveObjects: 3.981600 ms CreateObjectMapping: 3.008100 ms MarkObjects: 51.647300 ms  DeleteObjects: 1.694500 ms)
+Total: 54.411000 ms (FindLiveObjects: 3.598200 ms CreateObjectMapping: 1.901600 ms MarkObjects: 45.458900 ms  DeleteObjects: 3.451900 ms)
 
 [ADOFAI_OBS_Telemetry] Controller start
 Shader.WarmupAllShaders ();
-Shader warmup: 126 shaders 1404 combinations 0.005s
+Shader warmup: 126 shaders 1404 combinations 0.004s
 [ADOFAI_OBS_Telemetry] Controller started
 [ADOFAI_OBS_Telemetry] Feature enabled, example value: 100
 [ADOFAI_OBS_Telemetry] JSON output path: F:\SteamLibrary\steamapps\common\A Dance of Fire and Ice\ADOFAI_OBS_Telemetry.json
 Attempting to get `time` on an audio source that has a resource that is not a clip will always return 0.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 1)
 [adofaiOBS] Start
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 57070.
-Total: 37.593800 ms (FindLiveObjects: 6.923300 ms CreateObjectMapping: 2.678300 ms MarkObjects: 27.861100 ms  DeleteObjects: 0.130800 ms)
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 56846.
+Total: 37.840600 ms (FindLiveObjects: 7.975100 ms CreateObjectMapping: 2.108100 ms MarkObjects: 27.636600 ms  DeleteObjects: 0.120400 ms)
 
 [adofaiOBS] Countdown
 [adofaiOBS] PlayerControl
@@ -204,48 +203,43 @@ NullReferenceException: Object reference not set to an instance of an object
   at adofaiOBS.MainPatch.CheckRecording.Postfix () [0x00059] in <3d06fd8a34be4ee1a8365744e4dcbb8c>:0
   at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.scnGame.Update_Patch1(scnGame)
 
-NullReferenceException: Object reference not set to an instance of an object
-  at adofaiOBS.MainPatch.CheckRecording.Postfix () [0x00059] in <3d06fd8a34be4ee1a8365744e4dcbb8c>:0
-  at (wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.scnGame.Update_Patch1(scnGame)
-
-[adofaiOBS] Fail
-[adofaiOBS] Fail2
-[adofaiOBS] Start
-[adofaiOBS] Checkpoint
-[adofaiOBS] PlayerControl
-[adofaiOBS] Fail
-[adofaiOBS] Fail2
-[adofaiOBS] Start
-[adofaiOBS] Checkpoint
-[adofaiOBS] PlayerControl
-[adofaiOBS] Fail
-[adofaiOBS] Fail2
-[adofaiOBS] Start
-[adofaiOBS] Checkpoint
-[adofaiOBS] PlayerControl
-[adofaiOBS] Fail
-[adofaiOBS] Fail2
-[adofaiOBS] Start
-[adofaiOBS] Checkpoint
-[adofaiOBS] PlayerControl
-[adofaiOBS] Fail
-[adofaiOBS] Fail2
-[adofaiOBS] Start
-[adofaiOBS] Checkpoint
-[adofaiOBS] PlayerControl
+Too many repeats! >:(
+Too many repeats! >:(
+Too many repeats! >:(
+Too many repeats! >:(
+Too many repeats! >:(
+Too many repeats! >:(
+Too many repeats! >:(
 [adofaiOBS] checking clear
 [adofaiOBS] clear detected
 [adofaiOBS] Won
 Unloading 7 Unused Serialized files (Serialized files now loaded: 1)
-UnloadTime: 35.404600 ms
+UnloadTime: 46.728900 ms
 [adofaiOBS] Start
-Unloading 2322 unused Assets to reduce memory usage. Loaded Objects now: 32905.
-Total: 67.658600 ms (FindLiveObjects: 2.090700 ms CreateObjectMapping: 0.799600 ms MarkObjects: 60.157400 ms  DeleteObjects: 4.610500 ms)
+Unloading 2571 unused Assets to reduce memory usage. Loaded Objects now: 33628.
+Total: 67.890200 ms (FindLiveObjects: 2.435300 ms CreateObjectMapping: 1.161100 ms MarkObjects: 58.735800 ms  DeleteObjects: 5.557400 ms)
 
 [ADOFAI_OBS_Telemetry] Controller start
 Shader.WarmupAllShaders ();
-Shader warmup: 125 shaders 1396 combinations 0.008s
+Shader warmup: 126 shaders 1397 combinations 0.008s
 [ADOFAI_OBS_Telemetry] Controller started
 [ADOFAI_OBS_Telemetry] Feature enabled, example value: 100
 [ADOFAI_OBS_Telemetry] JSON output path: F:\SteamLibrary\steamapps\common\A Dance of Fire and Ice\ADOFAI_OBS_Telemetry.json
 [adofaiOBS] PlayerControl
+[Manager] Destroying when exit.
+[AdofaiTweaks] Saving: AdofaiTweaks.GlobalSettings
+[AdofaiTweaks] Saving: AdofaiTweaks.Tweaks.RestrictGameplay.RestrictGameplaySettings
+[AdofaiTweaks] Saving: AdofaiTweaks.Tweaks.PlanetOpacity.PlanetOpacitySettings
+[AdofaiTweaks] Saving: AdofaiTweaks.Tweaks.PlanetColor.PlanetColorSettings
+[AdofaiTweaks] Saving: AdofaiTweaks.Tweaks.KeyLimiter.KeyLimiterSettings
+[AdofaiTweaks] Saving: AdofaiTweaks.Tweaks.Miscellaneous.MiscellaneousSettings
+[AdofaiTweaks] Saving: AdofaiTweaks.Tweaks.KeyViewer.KeyViewerSettings
+[AdofaiTweaks] Saving: AdofaiTweaks.Tweaks.JudgmentVisuals.JudgmentVisualsSettings
+[AdofaiTweaks] Saving: AdofaiTweaks.Tweaks.HideUiElements.HideUiElementsSettings
+[AdofaiTweaks] Saving: AdofaiTweaks.Tweaks.EditorTweaks.EditorTweaksSettings
+[AdofaiTweaks] Saving: AdofaiTweaks.Tweaks.DisableEffects.DisableEffectsSettings
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
